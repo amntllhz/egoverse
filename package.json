@@ -12,5 +12,8 @@
   "description": "",
   "dependencies": {
     "tailwindcss": "^3.4.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7"
   }
 }
