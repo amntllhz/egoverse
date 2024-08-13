@@ -17,9 +17,8 @@
             <p class="text-base leading-loose text-gray-500">Kemudahan Pengajuan yang juga dilengkapi dengan Panduan Penggunaan </p>
           </div>
           <form class="mx-auto max-w-4xl">
-            <div class="space-y-12">
               
-              <!-- User -->
+              <!-- user -->
 
               <div class="border-b border-gray-900/10 pb-12">
                 <h2 class="text-lg font-bold leading-7 text-violet-700">Data Pemohon</h2>
@@ -27,16 +26,16 @@
           
                 <div class="mt-10 grid grid-cols-6 gap-x-6 gap-y-8">
                   <div class="col-span-3">
-                    <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Nama <span class="text-red-500">*</span></label>
+                    <label for="nama" class="block text-sm font-medium leading-6 text-gray-900">Nama <span class="text-red-500">*</span></label>
                     <div class="mt-2">
-                      <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
+                      <input type="text" name="nama" id="nama" autocomplete="nama" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
                     </div>
                   </div>
           
                   <div class="col-span-3">
-                    <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Nomor Induk Pegawai (NIP) <span class="text-red-500">*</span></label>
+                    <label for="nip" class="block text-sm font-medium leading-6 text-gray-900">Nomor Induk Pegawai (NIP) <span class="text-red-500">*</span></label>
                     <div class="mt-2">
-                      <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
+                      <input type="text" name="nip" id="nip" autocomplete="nomor-nip" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
                     </div>
                   </div>
           
@@ -48,16 +47,16 @@
                   </div>
 
                   <div class="col-span-3">
-                    <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Nomor Telepon <span class="text-red-500">*</span></label>
+                    <label for="telepon" class="block text-sm font-medium leading-6 text-gray-900">Nomor Telepon <span class="text-red-500">*</span></label>
                     <div class="mt-2">
-                      <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
+                      <input id="telepon" name="telepon" type="telepon" autocomplete="telepon" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
                     </div>
                   </div>
           
                   <div class="col-span-2">
-                    <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Instansi <span class="text-red-500">*</span></label>
+                    <label for="instansi" class="block text-sm font-medium leading-6 text-gray-900">Instansi <span class="text-red-500">*</span></label>
                     <div class="mt-2">
-                      <select id="country" name="country" autocomplete="country-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-violet-700">
+                      <select id="instansi" name="instansi" autocomplete=" nama-instansi" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-violet-700">
                         <option>DINKOMINFO</option>
                         <option>DISHUB</option>
                         <option>BAPPERIDA</option>
@@ -66,22 +65,22 @@
                   </div>
           
                   <div class="col-span-2">
-                    <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900">Alamat Kantor <span class="text-red-500">*</span></label>
+                    <label for="alamat" class="block text-sm font-medium leading-6 text-gray-900">Alamat Kantor <span class="text-red-500">*</span></label>
                     <div class="mt-2">
-                      <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
+                      <input type="text" name="alamat" id="alamat" autocomplete="alamat" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
                     </div>
                   </div>
           
                   <div class="col-span-2">
-                    <label for="city" class="block text-sm font-medium leading-6 text-gray-900">Kode Pos <span class="text-red-500">*</span></label>
+                    <label for="pos" class="block text-sm font-medium leading-6 text-gray-900">Kode Pos <span class="text-red-500">*</span></label>
                     <div class="mt-2">
-                      <input type="text" name="city" id="city" autocomplete="address-level2" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
+                      <input type="text" name="pos" id="pos" autocomplete="kode-pos" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
                     </div>
                   </div>
                 </div>
               </div>
               
-              <!-- Data -->
+              <!-- data -->
 
               <div class="pb-12">
                 <h2 class="text-lg font-bold leading-7 text-violet-700">Data Pengajuan</h2>
@@ -89,23 +88,23 @@
           
                 <div class="mt-10 grid grid-cols-6 gap-x-6 gap-y-8">
                     <div class="col-span-3">
-                      <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">CPU <span class="text-red-500">*</span></label>
+                      <label for="cpu" class="block text-sm font-medium leading-6 text-gray-900">CPU <span class="text-red-500">*</span></label>
                       <div class="mt-2">
-                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
+                        <input type="text" name="cpu" id="cpu" autocomplete="cpu" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
                       </div>
                     </div>
 
                     <div class="col-span-3">
-                        <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">RAM <span class="text-red-500">*</span></label>
+                        <label for="ram" class="block text-sm font-medium leading-6 text-gray-900">RAM <span class="text-red-500">*</span></label>
                         <div class="mt-2">
-                          <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
+                          <input type="text" name="ram" id="ram" autocomplete="rame" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 ">
                         </div>
                     </div>
 
                     <div class="col-span-3">
-                      <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Storage <span class="text-red-500">*</span></label>
+                      <label for="storage" class="block text-sm font-medium leading-6 text-gray-900">Storage <span class="text-red-500">*</span></label>
                       <div class="mt-2">
-                        <select id="country" name="country" autocomplete="country-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-violet-700">
+                        <select id="storage" name="storage" autocomplete="storage" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-violet-700">
                           <option>100 GB</option>
                           <option>200 GB</option>
                           <option>300 GB</option>
@@ -114,17 +113,17 @@
                     </div>
           
                   <div class="col-span-full">
-                    <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Include Aplikasi <span class="text-red-500">*</span></label>
+                    <label for="include" class="block text-sm font-medium leading-6 text-gray-900">Include Aplikasi <span class="text-red-500">*</span></label>
                     <div class="mt-2">
-                      <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 "></textarea>
+                      <textarea id="include" name="include" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 "></textarea>
                     </div>
-                    <p class="mt-3 text-sm leading-6 text-gray-600">Tuliskan deskripsi singkat aplikasi</p>
+                    <p class="mt-3 text-sm leading-6 text-gray-600">Tuliskan deskripsi singkat request aplikasi</p>
                   </div>
 
                   <div class="col-span-full">
-                    <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Tujuan Pengajuan <span class="text-red-500">*</span></label>
+                    <label for="tujuan" class="block text-sm font-medium leading-6 text-gray-900">Tujuan Pengajuan <span class="text-red-500">*</span></label>
                     <div class="mt-2">
-                      <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 "></textarea>
+                      <textarea id="tujuan" name="tujuan" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-700 "></textarea>
                     </div>
                     <p class="mt-3 text-sm leading-6 text-gray-600">Tuliskan deskripsi singkat aplikasi</p>
                   </div>
@@ -159,11 +158,13 @@
                   </div>
                 </div>
               </div>
-          
-            <div class="mt-6 flex items-center justify-end gap-x-6">
-              <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
-              <button type="submit" class="rounded-full bg-violet-700 px-5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
-            </div>
+              
+              <!-- data -->
+
+              <div class="mt-6 flex items-center justify-end gap-x-6">
+                <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
+                <button type="submit" class="rounded-full bg-violet-700 px-5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+              </div>
           </form>
     </section>
 </body>
