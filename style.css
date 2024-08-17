@@ -970,11 +970,6 @@ select {
   margin-right: auto;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1429,6 +1424,11 @@ select {
   padding-bottom: 2rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1540,10 +1540,6 @@ select {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
 }
 
 .leading-relaxed {
