@@ -970,6 +970,11 @@ select {
   margin-right: auto;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1505,6 +1510,10 @@ select {
   font-weight: 500;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1531,6 +1540,10 @@ select {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .leading-relaxed {
