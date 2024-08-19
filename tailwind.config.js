@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily : {
         clash : "'Clash Display', sans-serif",
+        pop : "'Poppins', sans-serif",
       },
       colors : {
         back : '#f1f4f5',
