@@ -1912,6 +1912,47 @@ select {
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:h-\[320px\] {
+    height: 320px;
+  }
+
+  .md\:h-\[420px\] {
+    height: 420px;
+  }
+
+  .md\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .md\:h-\[350px\] {
+    height: 350px;
+  }
+
+  .md\:h-\[380px\] {
+    height: 380px;
+  }
+
+  .md\:h-\[370px\] {
+    height: 370px;
+  }
+
+  .md\:h-\[390px\] {
+    height: 390px;
+  }
+
+  .md\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .md\:w-5 {
+    width: 1.25rem;
+  }
+
   .md\:max-w-4xl {
     max-width: 56rem;
   }
@@ -1920,7 +1961,46 @@ select {
     max-width: 32rem;
   }
 
+  .md\:max-w-xl {
+    max-width: 36rem;
+  }
+
+  .md\:max-w-2xl {
+    max-width: 42rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
