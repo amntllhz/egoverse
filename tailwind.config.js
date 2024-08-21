@@ -6,6 +6,7 @@ module.exports = {
       fontFamily : {
         clash : "'Clash Display', sans-serif",
         pop : "'Poppins', sans-serif",
+        in : "'Inter var', sans-serif",
       },
       colors : {
         back : '#f1f4f5',
@@ -30,6 +31,16 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
+
+    // kode font features
+    
+    function({ addUtilities }) {
+      addUtilities({
+        '.font-feature-settings-cv11': {
+          'font-feature-settings': '"cv11"',
+        },
+      }, ['responsive', 'hover']);
+    },
   ],
 }
 

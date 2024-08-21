@@ -1457,6 +1457,10 @@ select {
   font-family: 'Clash Display', sans-serif;
 }
 
+.font-in {
+  font-family: 'Inter var', sans-serif;
+}
+
 .font-pop {
   font-family: 'Poppins', sans-serif;
 }
@@ -1656,6 +1660,10 @@ select {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.font-feature-settings-cv11 {
+  font-feature-settings: "cv11";
 }
 
 .placeholder\:text-gray-400::-moz-placeholder {
