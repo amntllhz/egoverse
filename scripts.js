@@ -25,3 +25,53 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const tabMenu = document.getElementById('tab-menu');
+  const closeMenuA = document.getElementById('close-menu-a');
+  const closeMenuB = document.getElementById('close-menu-b');
+
+  // Tampilkan menu mobile saat tombol hamburger ditekan
+  hamburger.addEventListener('click', () => {
+    mobileMenu.classList.remove('hidden');
+    mobileMenu.classList.add('block'); // Menambahkan kelas block untuk menampilkan menu
+  });
+
+  // Sembunyikan menu mobile saat tombol close ditekan
+  closeMenuA.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden');
+    mobileMenu.classList.remove('block'); // Menghapus kelas block untuk menyembunyikan menu
+  });
+
+  // Sembunyikan menu mobile saat klik di luar menu
+  document.addEventListener('click', (event) => {
+    if (!mobileMenu.contains(event.target) && !hamburger.contains(event.target)) {
+      mobileMenu.classList.add('hidden');
+      mobileMenu.classList.remove('block'); // Menghapus kelas block untuk menyembunyikan menu
+    }
+  });
+
+  // Tampilkan menu mobile saat tombol hamburger ditekan
+  hamburger.addEventListener('click', () => {
+    tabMenu.classList.remove('hidden');
+    tabMenu.classList.add('block'); // Menambahkan kelas block untuk menampilkan menu
+  });
+
+  // Sembunyikan menu mobile saat tombol close ditekan
+  closeMenuB.addEventListener('click', () => {
+    tabMenu.classList.add('hidden');
+    tabMenu.classList.remove('block'); // Menghapus kelas block untuk menyembunyikan menu
+  });
+
+  // Sembunyikan menu mobile saat klik di luar menu
+  document.addEventListener('click', (event) => {
+    if (!tabMenu.contains(event.target) && !hamburger.contains(event.target)) {
+      tabMenu.classList.add('hidden');
+      tabMenu.classList.remove('block'); // Menghapus kelas block untuk menyembunyikan menu
+    }
+  });
+});
+
