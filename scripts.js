@@ -4,6 +4,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const copyIcon = document.querySelector("#copy-icon");
   const checkedIcon = document.querySelector("#checked-icon");
 
+  // tooltip
+  tippy('#copy-button', {
+    size: 'small',
+    content: 'Copied!',
+    trigger: 'click',
+    placement: 'right',
+    animation: 'fade', // Optional, you can use other animations
+    delay: [0, 1000], // Tooltip will hide after 2 seconds
+    hideOnClick: true,  // Tooltip hides on clicking anywhere
+  });
+
   copyButton.addEventListener("click", (event) => {
     event.preventDefault(); // Mencegah perilaku default anchor tag
 
