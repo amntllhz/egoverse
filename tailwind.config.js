@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./**/*.html'],
+  content: ['./**/*.html',
+    './node_modules/flowbite/**/*.js',
+  ],
   theme: {
     extend: {
       fontFamily : {
@@ -31,6 +33,7 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
+    require('flowbite/plugin'),
 
     // kode font features
     
