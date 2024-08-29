@@ -1852,10 +1852,6 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
-.justify-stretch {
-  justify-content: stretch;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
