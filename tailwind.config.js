@@ -12,6 +12,8 @@ module.exports = {
       },
       colors : {
         back : '#f1f4f5',
+        prim : '#6d28d9',
+        //  #1d4ed8
       },
     },
     screens: {
