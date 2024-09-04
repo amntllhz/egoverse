@@ -1921,12 +1921,17 @@ input:checked + .toggle-bg {
 
 .border-prim {
   --tw-border-opacity: 1;
-  border-color: rgb(109 40 217 / var(--tw-border-opacity));
+  border-color: rgb(29 78 216 / var(--tw-border-opacity));
 }
 
 .\!bg-gray-50 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
+}
+
+.bg-\[\#010727\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 7 39 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#070C29\] {
@@ -1937,6 +1942,11 @@ input:checked + .toggle-bg {
 .bg-back {
   --tw-bg-opacity: 1;
   background-color: rgb(241 244 245 / var(--tw-bg-opacity));
+}
+
+.bg-blue-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 239 254 / var(--tw-bg-opacity));
 }
 
 .bg-blue-700 {
@@ -1970,7 +1980,7 @@ input:checked + .toggle-bg {
 
 .bg-prim {
   --tw-bg-opacity: 1;
-  background-color: rgb(109 40 217 / var(--tw-bg-opacity));
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
 .bg-slate-100 {
@@ -2292,7 +2302,7 @@ input:checked + .toggle-bg {
 
 .text-prim {
   --tw-text-opacity: 1;
-  color: rgb(109 40 217 / var(--tw-text-opacity));
+  color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
 .text-red-500 {
@@ -2332,7 +2342,7 @@ input:checked + .toggle-bg {
 }
 
 .shadow-prim {
-  --tw-shadow-color: #6d28d9;
+  --tw-shadow-color: #1d4ed8;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -2356,7 +2366,7 @@ input:checked + .toggle-bg {
 }
 
 .ring-prim\/10 {
-  --tw-ring-color: rgb(109 40 217 / 0.1);
+  --tw-ring-color: rgb(29 78 216 / 0.1);
 }
 
 .blur {
@@ -2486,7 +2496,7 @@ input:checked + .toggle-bg {
 
 .hover\:text-prim:hover {
   --tw-text-opacity: 1;
-  color: rgb(109 40 217 / var(--tw-text-opacity));
+  color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -2535,7 +2545,7 @@ input:checked + .toggle-bg {
 
 .focus\:ring-prim:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(109 40 217 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(29 78 216 / var(--tw-ring-opacity));
 }
 
 .focus-visible\:outline:focus-visible {

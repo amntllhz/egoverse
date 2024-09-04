@@ -12,7 +12,7 @@ module.exports = {
       },
       colors : {
         back : '#f1f4f5',
-        prim : '#6d28d9',
+        prim : '#1d4ed8',
         //  #1d4ed8
       },
     },
