@@ -11,7 +11,7 @@ module.exports = {
         in : "'Inter var', sans-serif",
       },
       colors : {
-        back : '#f1f4f5',
+        back : '#ffffff',
         prim : '#1d4ed8',
         //  #1d4ed8
       },
